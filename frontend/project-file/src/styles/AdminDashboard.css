@@ -1,0 +1,216 @@
+.dashboard-container {
+  padding: 30px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #34495e;
+  color: #fff;
+  font-weight: 500;
+}
+
+.dashboard-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status.new {
+  background-color: #dfe6e9;
+  color: #2d3436;
+}
+
+.status.contacted {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.status.converted {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.contacted {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+
+.btn.contacted:hover {
+  background-color: #ec971f;
+}
+
+.btn.converted {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.btn.converted:hover {
+  background-color: #449d44;
+}
+
+.btn.delete {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.btn.delete:hover {
+  background-color: #c9302c;
+}
+
+.btn.add{
+  background:transparent;
+  border:2px solid #34495e;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn.logout {
+  background-color: #34495e;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.logout:hover {
+  background-color: #2c3e50;
+}
+
+.notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.notes-section input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.notes-section input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+.dashboard-controls {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.dashboard-controls input,
+.dashboard-controls select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.dashboard-controls input:focus,
+.dashboard-controls select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.pagination button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #357ab8;
+}
+
+.pagination span {
+  font-size: 14px;
+  color: #2c3e50;
+}
+.dashboard-table th {
+  background-color: #34495e;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dashboard-table th:hover {
+  background-color: #2c3e50;
+}
+
