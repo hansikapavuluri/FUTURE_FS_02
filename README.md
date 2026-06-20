@@ -40,6 +40,6 @@ The CRM system helps businesses manage customer data, monitor customer relations
 ### Tools
 - Git & GitHub
 - VS Code
-- Postman
 
-## 📂 Project Structure
+
+
